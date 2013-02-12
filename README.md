@@ -17,10 +17,10 @@ After you download the file you should open a new Terminal window and type in it
 
 ```
 mvn install:install-file                            \
-   -Dfile=vaadin-spring-archetype-1.1-SNAPSHOT.jar  \
+   -Dfile=vaadin-spring-archetype-1.2-SNAPSHOT.jar  \
    -DgroupId=com.vaadin                             \
    -DartifactId=vaadin-spring-archetype             \
-   -Dversion=1.1-SNAPSHOT                           \
+   -Dversion=1.2-SNAPSHOT                           \
    -Dpackaging=jar                                  \
    -DgeneratePom=true
 ```
@@ -35,7 +35,7 @@ This maven command shows the following output:
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-install-plugin:2.3.1:install-file (default-cli) @ standalone-pom ---
-[INFO] Installing .../vaadin-spring-archetype-1.1-SNAPSHOT.jar to .../.m2/repository/com/vaadin/vaadin-spring-archetype/1.1-SNAPSHOT/vaadin-spring-archetype-1.1-SNAPSHOT.jar
+[INFO] Installing .../vaadin-spring-archetype-1.2-SNAPSHOT.jar to .../.m2/repository/com/vaadin/vaadin-spring-archetype/1.2-SNAPSHOT/vaadin-spring-archetype-1.2-SNAPSHOT.jar
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
@@ -59,7 +59,7 @@ To generate a new project using the archetype just follow this steps:
 mvn archetype:generate                            \
   -DarchetypeGroupId=com.vaadin                   \
   -DarchetypeArtifactId=vaadin-spring-archetype   \
-  -DarchetypeVersion=1.1-SNAPSHOT                 \
+  -DarchetypeVersion=1.2-SNAPSHOT                 \
   -DgroupId=com.mycompany                         \
   -DartifactId=myApplication                      \
   -Dversion=0.1-SNAPSHOT
