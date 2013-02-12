@@ -1,0 +1,18 @@
+<archetype>
+  <id>vaadin-spring-archetype</id>
+  <sources>
+    <source>src\main\java\**\App.java</source>
+  </sources>
+  <resources>
+    <resource>src\main\resources</resource>
+    <resource>src\main\webapp\META-INF\context.xml</resource>
+    <resource>src\main\webapp\META-INF\MANIFEST.MF</resource>
+    <resource>src\main\webapp\WEB-INF\web.xml</resource>
+  </resources>
+  <testSources>
+    <source>src\test\java\**\AppTest.java</source>
+  </testSources>
+  <testResources>
+    <resource>src\main\resources</resource>
+  </testResources>
+</archetype>
