@@ -1,4 +1,4 @@
 vaadin-spring-archetype
 =======================
 
-A simple Vaadin +Spring Maven Archetype
+A simple Vaadin + Spring Maven Archetype
